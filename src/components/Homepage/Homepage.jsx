@@ -19,9 +19,13 @@ function Homepage() {
                     </a>
                 </div>
             </div>
-            <div ><button className="bg-yellow-500 text-white text-1xl mr-5px mt-2 py-3 px-3 ">
-            Login
-          </button></div>
+            <a href='/login'>
+                <div>
+                    <button className="bg-yellow-500 text-white text-1xl mr-5px mt-2 py-3 px-3">
+                        Login
+                </button>
+                </div>
+            </a>
         </div>
         <div className='mt-4'
         style={{
@@ -39,7 +43,7 @@ function Homepage() {
                  <div>   asdaf asf sad asdasa sgsfsf fdsfd.</div> 
                  <div>   asdasdsdfdf gdg dasd asd .</div>  </p>
                 </div>
-                <div className=" absolute left-7 mt-411px">
+                <div className=" absolute left-7 mt-411p">
           <button className="bg-white text-black font-semibold py-2 px-4 mr-2  ">
             Try Now
           </button>
