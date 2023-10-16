@@ -1,9 +1,10 @@
 import React from 'react';
-import './App.css';
+import {BrowserRouter , Routes, Route} from "react-router-dom";
 import Homepage from './components/Homepage/Homepage';
 import Login from './components/Login/Login';
 import Signup from './components/Signup/Signup';
-import {BrowserRouter , Routes, Route} from "react-router-dom";
+import Dashboard from './components/Dashboard/Dashboard';
+import './App.css';
 
 function App() {
     return ( 
@@ -12,7 +13,8 @@ function App() {
             <Routes>
                 <Route path="/" element={<Homepage/>}/>
                 <Route path="/login" element={<Login/>}/>
-                <Route path="/signup" element={<Signup/>}/>
+                <Route path="/signup" element={<Signup/>}/>              
+                <Route path="/Dashboard" element={<Dashboard/>}/>
             </Routes>
             </BrowserRouter>
         </div>
