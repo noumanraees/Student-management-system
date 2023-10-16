@@ -1,5 +1,6 @@
 import React from 'react'
-import background from '/Users/mac/Desktop/Student Management/src/assets/background.png'
+import background from '../../assets/background.png'
+
 function Homepage() {
     return (
       <div
